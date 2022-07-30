@@ -10,6 +10,7 @@ use crate::osu::calculate_sr;
 
 fn main() {
     let listener = TcpListener::bind("127.0.0.1:45357").unwrap();
+    println!("Server started.");
 
     for stream in listener.incoming() {
         let stream = stream.unwrap();
