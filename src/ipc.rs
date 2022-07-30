@@ -1,9 +1,8 @@
+use anyhow::{Context, Result};
 use cpu_endian::*;
 
 use serde::{Deserialize, Serialize};
-use serde_json::Result;
 
-use std::process;
 use std::{io::Write, net::TcpStream};
 
 #[derive(Serialize, Deserialize, Debug)]
@@ -60,11 +59,8 @@ pub fn send_message(message: OsuIpcMessage<OsuResponse>, mut stream: TcpStream) 
 }
 
 pub fn deserealize_message(json_str: &str) -> Result<OsuMessageData> {
-    let full_message: OsuIpcMessage<OsuMessageData> = serde_json::from_str(&json_str)
-        .unwrap_or_else(|err| {
-            eprintln!("Problem parsing arguments: {}", err);
-            process::exit(1);
-        });
+    let full_message: OsuIpcMessage<OsuMessageData> =
+        serde_json::from_str(&json_str).context("Failed to deserialize message")?;
     let message = full_message.value.message_data;
 
     return Ok(message);

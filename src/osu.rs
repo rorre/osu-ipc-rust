@@ -1,13 +1,13 @@
+use anyhow::{Context, Result};
+
 use rosu_pp::GameMode;
 use rosu_pp::{AnyStars, Beatmap};
 
 use crate::ipc::OsuMessageData;
 
-pub fn calculate_sr(message: OsuMessageData) -> f64 {
-    let map = match Beatmap::from_path(message.beatmap_file) {
-        Ok(map) => map,
-        Err(why) => panic!("Error while parsing map: {}", why),
-    };
+pub fn calculate_sr(message: OsuMessageData) -> Result<f64> {
+    let map = Beatmap::from_path(&message.beatmap_file)
+        .with_context(|| format!("Cannot read .osu file at {}", message.beatmap_file))?;
 
     let mode = match message.ruleset_id {
         0 => GameMode::Osu,
@@ -22,5 +22,5 @@ pub fn calculate_sr(message: OsuMessageData) -> f64 {
         .calculate()
         .stars();
 
-    return sr;
+    return Ok(sr);
 }

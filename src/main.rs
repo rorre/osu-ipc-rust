@@ -1,6 +1,7 @@
 pub mod ipc;
 pub mod osu;
 
+use anyhow::{anyhow, Context, Result};
 use cpu_endian::*;
 
 use std::io::prelude::*;
@@ -11,7 +12,9 @@ use crate::ipc::{deserealize_message, send_message, OsuIpcMessage, OsuResponse, 
 use crate::osu::calculate_sr;
 
 fn main() {
-    let listener = TcpListener::bind("127.0.0.1:45357").unwrap();
+    let listener =
+        TcpListener::bind("127.0.0.1:45357").expect("Failed to boot up server on osu!'s IPC port.");
+
     println!("Server started.");
 
     for stream in listener.incoming() {
@@ -19,17 +22,18 @@ fn main() {
 
         let result = handle_connection(&stream);
         match result {
-            Some(x) => send_message(x, stream),
-            None => println!("[INFO] skipping due to empty"),
+            Ok(res) => send_message(res, stream),
+            Err(x) => eprintln!("Failed to process osu!'s IPC message: {}", x),
         }
     }
 }
 
-fn handle_connection(mut stream: &TcpStream) -> Option<OsuIpcMessage<OsuResponse>> {
+fn handle_connection(mut stream: &TcpStream) -> Result<OsuIpcMessage<OsuResponse>> {
     // Read the header and get the size of the message
     let mut header = [0; 4];
-    stream.read(&mut header).unwrap();
-    println!("Header: {:?}", &header);
+    stream
+        .read(&mut header)
+        .context("Failed to read header from request")?;
 
     let len = match working() {
         Endian::Little => i32::from_le_bytes(header),
@@ -39,27 +43,26 @@ fn handle_connection(mut stream: &TcpStream) -> Option<OsuIpcMessage<OsuResponse
 
     // Initialize buffer in the same size
     let mut buffer = vec![0; len.try_into().unwrap()];
-    stream.read(&mut buffer).unwrap();
+    stream
+        .read(&mut buffer)
+        .with_context(|| format!("Failed to read content with length {}", &len))?;
 
     // Then convert it to JSON string
     let json_str = String::from_utf8_lossy(&buffer.as_slice());
     let json_str = json_str.trim_matches(char::from(0));
-    println!("JsonString: {:?}", json_str);
 
     // If either of header or string is empty, just don't do anything
     if i32::from_le_bytes(header) == 0 || json_str.is_empty() {
-        return None;
+        return Err(anyhow!("Malformed request from osu!"));
     }
 
     // Attempt to decode the message
-    let deserialized = match deserealize_message(json_str) {
-        Ok(x) => x,
-        Err(_x) => return None,
-    };
+    let deserialized =
+        deserealize_message(json_str).context("Failed to deserialize osu! IPC message.")?;
     println!("Request: {:?}", deserialized);
 
     // Calculate the SR
-    let sr = calculate_sr(deserialized);
+    let sr = calculate_sr(deserialized).context("Failed to calculate star rating")?;
     let response = OsuIpcMessage {
         type_field: "System.Object".to_owned(),
         value: ValueIpc {
@@ -70,5 +73,5 @@ fn handle_connection(mut stream: &TcpStream) -> Option<OsuIpcMessage<OsuResponse
         },
     };
 
-    return Some(response);
+    return Ok(response);
 }
