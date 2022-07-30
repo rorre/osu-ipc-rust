@@ -8,7 +8,7 @@ use std::io::prelude::*;
 use std::net::TcpListener;
 use std::net::TcpStream;
 
-use crate::ipc::{deserealize_message, send_message, OsuIpcMessage, OsuResponse, ValueIpc};
+use crate::ipc::{deserialize_message, send_message, OsuIpcMessage, OsuResponse, ValueIpc};
 use crate::osu::calculate_sr;
 
 fn main() {
@@ -58,7 +58,7 @@ fn handle_connection(mut stream: &TcpStream) -> Result<OsuIpcMessage<OsuResponse
 
     // Attempt to decode the message
     let deserialized =
-        deserealize_message(json_str).context("Failed to deserialize osu! IPC message.")?;
+        deserialize_message(json_str).context("Failed to deserialize osu! IPC message.")?;
     println!("Request: {:?}", deserialized);
 
     // Calculate the SR

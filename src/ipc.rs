@@ -58,7 +58,7 @@ pub fn send_message(message: OsuIpcMessage<OsuResponse>, mut stream: TcpStream) 
     stream.write(&arr).unwrap();
 }
 
-pub fn deserealize_message(json_str: &str) -> Result<OsuMessageData> {
+pub fn deserialize_message(json_str: &str) -> Result<OsuMessageData> {
     let full_message: OsuIpcMessage<OsuMessageData> =
         serde_json::from_str(&json_str).context("Failed to deserialize message")?;
     let message = full_message.value.message_data;
