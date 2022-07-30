@@ -1,5 +1,8 @@
+use cpu_endian::*;
+
 use serde::{Deserialize, Serialize};
 use serde_json::Result;
+
 use std::process;
 use std::{io::Write, net::TcpStream};
 
@@ -46,8 +49,12 @@ pub fn send_message(message: OsuIpcMessage<OsuResponse>, mut stream: TcpStream) 
     let arr = json_str.as_bytes();
     let len: i32 = arr.len().try_into().unwrap();
 
-    // TODO: This would be COMPLETELY WRONG on big endian devices
-    let header = len.to_le_bytes();
+    let header = match working() {
+        Endian::Little => len.to_le_bytes(),
+        Endian::Big => len.to_be_bytes(),
+        _ => panic!("Unexpected CPU endian"),
+    };
+
     stream.write(&header).unwrap();
     stream.write(&arr).unwrap();
 }

@@ -3,6 +3,21 @@
 version = 3
 
 [[package]]
+name = "cc"
+version = "1.0.73"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "2fff2a6927b3bb87f9595d67196a70493f627687a71d87a0d692242c33f58c11"
+
+[[package]]
+name = "cpu-endian"
+version = "0.1.1"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "512746971686a86c7b8aee38244eaa7e04696e612790d593f1d73059536beee8"
+dependencies = [
+ "cc",
+]
+
+[[package]]
 name = "itoa"
 version = "1.0.2"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -12,6 +27,7 @@ checksum = "112c678d4050afce233f4f2852bb2eb519230b3cf12f33585275537d7e41578d"
 name = "osu-ipc-rust"
 version = "0.1.0"
 dependencies = [
+ "cpu-endian",
  "rosu-pp",
  "serde",
  "serde_json",

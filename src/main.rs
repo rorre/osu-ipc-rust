@@ -1,6 +1,8 @@
 pub mod ipc;
 pub mod osu;
 
+use cpu_endian::*;
+
 use std::io::prelude::*;
 use std::net::TcpListener;
 use std::net::TcpStream;
@@ -29,8 +31,11 @@ fn handle_connection(mut stream: &TcpStream) -> Option<OsuIpcMessage<OsuResponse
     stream.read(&mut header).unwrap();
     println!("Header: {:?}", &header);
 
-    // TODO: This would be COMPLETELY WRONG on big endian devices
-    let len = i32::from_le_bytes(header);
+    let len = match working() {
+        Endian::Little => i32::from_le_bytes(header),
+        Endian::Big => i32::from_be_bytes(header),
+        _ => panic!("Unexpected CPU endian"),
+    };
 
     // Initialize buffer in the same size
     let mut buffer = vec![0; len.try_into().unwrap()];
