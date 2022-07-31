@@ -23,17 +23,7 @@ fn main() {
         let result = handle_connection(&stream);
         match result {
             Ok(res) => send_message(res, stream),
-            Err(x) => {
-                eprintln!("Failed to process osu!'s IPC message: {}", x);
-                let response = OsuIpcMessage {
-                    type_field: "System.Object".to_owned(),
-                    value: ValueIpc {
-                        message_type: "LegacyIpcDifficultyCalculationResponse".to_owned(),
-                        message_data: OsuResponse { star_rating: 0.0 },
-                    },
-                };
-                send_message(response, stream)
-            }
+            Err(x) => eprintln!("Failed to process osu!'s IPC message: {}", x),
         }
     }
 }
