@@ -49,7 +49,7 @@ jobs:
     strategy:
       fail-fast: true
       matrix:
-        channel: [stable, beta, nightly]
+        channel: [stable]
         target:
           # MSVC
           - i686-pc-windows-msvc
@@ -90,7 +90,7 @@ jobs:
     strategy:
       fail-fast: true
       matrix:
-        channel: [stable, beta, nightly]
+        channel: [stable]
         target:
           # Linux
           - i686-unknown-linux-gnu
