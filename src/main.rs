@@ -3,7 +3,10 @@ pub mod osu;
 
 use anyhow::{anyhow, Context, Result};
 use cpu_endian::*;
+use log::*;
+use simplelog::*;
 
+use std::fs::File;
 use std::io::prelude::*;
 use std::net::TcpListener;
 use std::net::TcpStream;
@@ -12,18 +15,29 @@ use crate::ipc::{deserialize_message, send_message, OsuIpcMessage, OsuResponse, 
 use crate::osu::calculate_sr;
 
 fn main() {
+    CombinedLogger::init(vec![
+        SimpleLogger::new(LevelFilter::Info, Config::default()),
+        WriteLogger::new(
+            LevelFilter::Debug,
+            Config::default(),
+            File::create("osu-ipc-rust.log").unwrap(),
+        ),
+    ])
+    .expect("Cannot set up logger.");
+
     let listener =
         TcpListener::bind("127.0.0.1:45357").expect("Failed to boot up server on osu!'s IPC port.");
 
-    println!("Server started.");
+    info!("Server started.");
 
     for stream in listener.incoming() {
         let stream = stream.unwrap();
 
+        info!("osu! IPC message received.");
         let result = handle_connection(&stream);
         match result {
             Ok(res) => send_message(res, stream),
-            Err(x) => eprintln!("Failed to process osu!'s IPC message: {}", x),
+            Err(x) => error!("Failed to process osu!'s IPC message: {}", x),
         }
     }
 }
@@ -65,7 +79,7 @@ fn handle_connection(mut stream: &TcpStream) -> Result<OsuIpcMessage<OsuResponse
     // Attempt to decode the message
     let deserialized =
         deserialize_message(&json_str).context("Failed to deserialize osu! IPC message.")?;
-    println!("Request: {:?}", deserialized);
+    debug!("Request: {:?}", deserialized);
 
     // Calculate the SR
     let sr = calculate_sr(deserialized).context("Failed to calculate star rating")?;

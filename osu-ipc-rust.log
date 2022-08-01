@@ -1,0 +1,315 @@
+11:52:43 [INFO] Server started.
+11:52:45 [INFO] osu! IPC message received.
+11:52:45 [DEBUG] (1) osu_ipc_rust: Request: OsuMessageData { beatmap_file: "D:\\osu!\\Songs\\1759729 kakichoco - Zan'ei\\Kakichoco - Zan'ei (Lasse) [Illusion].osu", ruleset_id: 2, mods: 0 }
+11:52:45 [INFO] osu! IPC message received.
+11:52:45 [DEBUG] (1) osu_ipc_rust: Request: OsuMessageData { beatmap_file: "D:\\osu!\\Songs\\1759729 kakichoco - Zan'ei\\Kakichoco - Zan'ei (Lasse) [Illusion].osu", ruleset_id: 2, mods: 64 }
+11:52:45 [INFO] osu! IPC message received.
+11:52:45 [DEBUG] (1) osu_ipc_rust: Request: OsuMessageData { beatmap_file: "D:\\osu!\\Songs\\1759729 kakichoco - Zan'ei\\Kakichoco - Zan'ei (Lasse) [Illusion].osu", ruleset_id: 2, mods: 256 }
+11:52:45 [INFO] osu! IPC message received.
+11:52:45 [DEBUG] (1) osu_ipc_rust: Request: OsuMessageData { beatmap_file: "D:\\osu!\\Songs\\1759729 kakichoco - Zan'ei\\Kakichoco - Zan'ei (Lasse) [Illusion].osu", ruleset_id: 2, mods: 2 }
+11:52:45 [INFO] osu! IPC message received.
+11:52:45 [DEBUG] (1) osu_ipc_rust: Request: OsuMessageData { beatmap_file: "D:\\osu!\\Songs\\1759729 kakichoco - Zan'ei\\Kakichoco - Zan'ei (Lasse) [Illusion].osu", ruleset_id: 2, mods: 66 }
+11:52:45 [INFO] osu! IPC message received.
+11:52:45 [DEBUG] (1) osu_ipc_rust: Request: OsuMessageData { beatmap_file: "D:\\osu!\\Songs\\1759729 kakichoco - Zan'ei\\Kakichoco - Zan'ei (Lasse) [Illusion].osu", ruleset_id: 2, mods: 258 }
+11:52:45 [INFO] osu! IPC message received.
+11:52:45 [DEBUG] (1) osu_ipc_rust: Request: OsuMessageData { beatmap_file: "D:\\osu!\\Songs\\1759729 kakichoco - Zan'ei\\Kakichoco - Zan'ei (Lasse) [Illusion].osu", ruleset_id: 2, mods: 16 }
+11:52:45 [INFO] osu! IPC message received.
+11:52:45 [DEBUG] (1) osu_ipc_rust: Request: OsuMessageData { beatmap_file: "D:\\osu!\\Songs\\1759729 kakichoco - Zan'ei\\Kakichoco - Zan'ei (Lasse) [Illusion].osu", ruleset_id: 2, mods: 80 }
+11:52:45 [INFO] osu! IPC message received.
+11:52:45 [DEBUG] (1) osu_ipc_rust: Request: OsuMessageData { beatmap_file: "D:\\osu!\\Songs\\1759729 kakichoco - Zan'ei\\Kakichoco - Zan'ei (Lasse) [Illusion].osu", ruleset_id: 2, mods: 272 }
+11:52:46 [INFO] osu! IPC message received.
+11:52:46 [DEBUG] (1) osu_ipc_rust: Request: OsuMessageData { beatmap_file: "D:\\osu!\\Songs\\grow up\\Hysteric Blue - Grow Up (TV Size) (-Keitaro) [anime jumps 2].osu", ruleset_id: 2, mods: 0 }
+11:52:46 [INFO] osu! IPC message received.
+11:52:46 [DEBUG] (1) osu_ipc_rust: Request: OsuMessageData { beatmap_file: "D:\\osu!\\Songs\\grow up\\Hysteric Blue - Grow Up (TV Size) (-Keitaro) [anime jumps 2].osu", ruleset_id: 2, mods: 64 }
+11:52:46 [INFO] osu! IPC message received.
+11:52:46 [DEBUG] (1) osu_ipc_rust: Request: OsuMessageData { beatmap_file: "D:\\osu!\\Songs\\grow up\\Hysteric Blue - Grow Up (TV Size) (-Keitaro) [anime jumps 2].osu", ruleset_id: 2, mods: 256 }
+11:52:46 [INFO] osu! IPC message received.
+11:52:46 [DEBUG] (1) osu_ipc_rust: Request: OsuMessageData { beatmap_file: "D:\\osu!\\Songs\\grow up\\Hysteric Blue - Grow Up (TV Size) (-Keitaro) [anime jumps 2].osu", ruleset_id: 2, mods: 2 }
+11:52:46 [INFO] osu! IPC message received.
+11:52:46 [DEBUG] (1) osu_ipc_rust: Request: OsuMessageData { beatmap_file: "D:\\osu!\\Songs\\grow up\\Hysteric Blue - Grow Up (TV Size) (-Keitaro) [anime jumps 2].osu", ruleset_id: 2, mods: 66 }
+11:52:46 [INFO] osu! IPC message received.
+11:52:46 [DEBUG] (1) osu_ipc_rust: Request: OsuMessageData { beatmap_file: "D:\\osu!\\Songs\\grow up\\Hysteric Blue - Grow Up (TV Size) (-Keitaro) [anime jumps 2].osu", ruleset_id: 2, mods: 258 }
+11:52:46 [INFO] osu! IPC message received.
+11:52:46 [DEBUG] (1) osu_ipc_rust: Request: OsuMessageData { beatmap_file: "D:\\osu!\\Songs\\grow up\\Hysteric Blue - Grow Up (TV Size) (-Keitaro) [anime jumps 2].osu", ruleset_id: 2, mods: 16 }
+11:52:46 [INFO] osu! IPC message received.
+11:52:46 [DEBUG] (1) osu_ipc_rust: Request: OsuMessageData { beatmap_file: "D:\\osu!\\Songs\\grow up\\Hysteric Blue - Grow Up (TV Size) (-Keitaro) [anime jumps 2].osu", ruleset_id: 2, mods: 80 }
+11:52:46 [INFO] osu! IPC message received.
+11:52:46 [DEBUG] (1) osu_ipc_rust: Request: OsuMessageData { beatmap_file: "D:\\osu!\\Songs\\grow up\\Hysteric Blue - Grow Up (TV Size) (-Keitaro) [anime jumps 2].osu", ruleset_id: 2, mods: 272 }
+11:52:46 [INFO] osu! IPC message received.
+11:52:46 [DEBUG] (1) osu_ipc_rust: Request: OsuMessageData { beatmap_file: "D:\\osu!\\Songs\\1759729 kakichoco - Zan'ei\\Kakichoco - Zan'ei (Lasse) [Illusion].osu", ruleset_id: 2, mods: 0 }
+11:52:46 [INFO] osu! IPC message received.
+11:52:46 [DEBUG] (1) osu_ipc_rust: Request: OsuMessageData { beatmap_file: "D:\\osu!\\Songs\\1759729 kakichoco - Zan'ei\\Kakichoco - Zan'ei (Lasse) [Illusion].osu", ruleset_id: 2, mods: 64 }
+11:52:46 [INFO] osu! IPC message received.
+11:52:46 [DEBUG] (1) osu_ipc_rust: Request: OsuMessageData { beatmap_file: "D:\\osu!\\Songs\\1759729 kakichoco - Zan'ei\\Kakichoco - Zan'ei (Lasse) [Illusion].osu", ruleset_id: 2, mods: 256 }
+11:52:46 [INFO] osu! IPC message received.
+11:52:46 [DEBUG] (1) osu_ipc_rust: Request: OsuMessageData { beatmap_file: "D:\\osu!\\Songs\\1759729 kakichoco - Zan'ei\\Kakichoco - Zan'ei (Lasse) [Illusion].osu", ruleset_id: 2, mods: 2 }
+11:52:46 [INFO] osu! IPC message received.
+11:52:46 [DEBUG] (1) osu_ipc_rust: Request: OsuMessageData { beatmap_file: "D:\\osu!\\Songs\\1759729 kakichoco - Zan'ei\\Kakichoco - Zan'ei (Lasse) [Illusion].osu", ruleset_id: 2, mods: 66 }
+11:52:46 [INFO] osu! IPC message received.
+11:52:46 [DEBUG] (1) osu_ipc_rust: Request: OsuMessageData { beatmap_file: "D:\\osu!\\Songs\\1759729 kakichoco - Zan'ei\\Kakichoco - Zan'ei (Lasse) [Illusion].osu", ruleset_id: 2, mods: 258 }
+11:52:46 [INFO] osu! IPC message received.
+11:52:46 [DEBUG] (1) osu_ipc_rust: Request: OsuMessageData { beatmap_file: "D:\\osu!\\Songs\\1759729 kakichoco - Zan'ei\\Kakichoco - Zan'ei (Lasse) [Illusion].osu", ruleset_id: 2, mods: 16 }
+11:52:46 [INFO] osu! IPC message received.
+11:52:46 [DEBUG] (1) osu_ipc_rust: Request: OsuMessageData { beatmap_file: "D:\\osu!\\Songs\\1759729 kakichoco - Zan'ei\\Kakichoco - Zan'ei (Lasse) [Illusion].osu", ruleset_id: 2, mods: 80 }
+11:52:46 [INFO] osu! IPC message received.
+11:52:46 [DEBUG] (1) osu_ipc_rust: Request: OsuMessageData { beatmap_file: "D:\\osu!\\Songs\\1759729 kakichoco - Zan'ei\\Kakichoco - Zan'ei (Lasse) [Illusion].osu", ruleset_id: 2, mods: 272 }
+11:52:46 [INFO] osu! IPC message received.
+11:52:46 [DEBUG] (1) osu_ipc_rust: Request: OsuMessageData { beatmap_file: "D:\\osu!\\Songs\\Rotteen_-_VECLEGGENDARIA\\Rotteen - VEC+LEGGENDARIA (Chompy) [Keitaro's †].osu", ruleset_id: 2, mods: 0 }
+11:52:46 [INFO] osu! IPC message received.
+11:52:46 [DEBUG] (1) osu_ipc_rust: Request: OsuMessageData { beatmap_file: "D:\\osu!\\Songs\\Rotteen_-_VECLEGGENDARIA\\Rotteen - VEC+LEGGENDARIA (Chompy) [Keitaro's †].osu", ruleset_id: 2, mods: 64 }
+11:52:46 [INFO] osu! IPC message received.
+11:52:46 [DEBUG] (1) osu_ipc_rust: Request: OsuMessageData { beatmap_file: "D:\\osu!\\Songs\\Rotteen_-_VECLEGGENDARIA\\Rotteen - VEC+LEGGENDARIA (Chompy) [Keitaro's †].osu", ruleset_id: 2, mods: 256 }
+11:52:46 [INFO] osu! IPC message received.
+11:52:46 [DEBUG] (1) osu_ipc_rust: Request: OsuMessageData { beatmap_file: "D:\\osu!\\Songs\\Rotteen_-_VECLEGGENDARIA\\Rotteen - VEC+LEGGENDARIA (Chompy) [Keitaro's †].osu", ruleset_id: 2, mods: 2 }
+11:52:46 [INFO] osu! IPC message received.
+11:52:46 [DEBUG] (1) osu_ipc_rust: Request: OsuMessageData { beatmap_file: "D:\\osu!\\Songs\\Rotteen_-_VECLEGGENDARIA\\Rotteen - VEC+LEGGENDARIA (Chompy) [Keitaro's †].osu", ruleset_id: 2, mods: 66 }
+11:52:46 [INFO] osu! IPC message received.
+11:52:46 [DEBUG] (1) osu_ipc_rust: Request: OsuMessageData { beatmap_file: "D:\\osu!\\Songs\\Rotteen_-_VECLEGGENDARIA\\Rotteen - VEC+LEGGENDARIA (Chompy) [Keitaro's †].osu", ruleset_id: 2, mods: 258 }
+11:52:46 [INFO] osu! IPC message received.
+11:52:46 [DEBUG] (1) osu_ipc_rust: Request: OsuMessageData { beatmap_file: "D:\\osu!\\Songs\\Rotteen_-_VECLEGGENDARIA\\Rotteen - VEC+LEGGENDARIA (Chompy) [Keitaro's †].osu", ruleset_id: 2, mods: 16 }
+11:52:46 [INFO] osu! IPC message received.
+11:52:46 [DEBUG] (1) osu_ipc_rust: Request: OsuMessageData { beatmap_file: "D:\\osu!\\Songs\\Rotteen_-_VECLEGGENDARIA\\Rotteen - VEC+LEGGENDARIA (Chompy) [Keitaro's †].osu", ruleset_id: 2, mods: 80 }
+11:52:46 [INFO] osu! IPC message received.
+11:52:46 [DEBUG] (1) osu_ipc_rust: Request: OsuMessageData { beatmap_file: "D:\\osu!\\Songs\\Rotteen_-_VECLEGGENDARIA\\Rotteen - VEC+LEGGENDARIA (Chompy) [Keitaro's †].osu", ruleset_id: 2, mods: 272 }
+11:52:46 [INFO] osu! IPC message received.
+11:52:46 [DEBUG] (1) osu_ipc_rust: Request: OsuMessageData { beatmap_file: "D:\\osu!\\Songs\\662526 Yousei Teikoku - Hades The rise\\Yousei Teikoku - Hades The rise (Delis) [Hardest].osu", ruleset_id: 2, mods: 0 }
+11:52:46 [INFO] osu! IPC message received.
+11:52:46 [DEBUG] (1) osu_ipc_rust: Request: OsuMessageData { beatmap_file: "D:\\osu!\\Songs\\662526 Yousei Teikoku - Hades The rise\\Yousei Teikoku - Hades The rise (Delis) [Hardest].osu", ruleset_id: 2, mods: 64 }
+11:52:46 [INFO] osu! IPC message received.
+11:52:46 [DEBUG] (1) osu_ipc_rust: Request: OsuMessageData { beatmap_file: "D:\\osu!\\Songs\\662526 Yousei Teikoku - Hades The rise\\Yousei Teikoku - Hades The rise (Delis) [Hardest].osu", ruleset_id: 2, mods: 256 }
+11:52:46 [INFO] osu! IPC message received.
+11:52:46 [DEBUG] (1) osu_ipc_rust: Request: OsuMessageData { beatmap_file: "D:\\osu!\\Songs\\662526 Yousei Teikoku - Hades The rise\\Yousei Teikoku - Hades The rise (Delis) [Hardest].osu", ruleset_id: 2, mods: 2 }
+11:52:46 [INFO] osu! IPC message received.
+11:52:46 [DEBUG] (1) osu_ipc_rust: Request: OsuMessageData { beatmap_file: "D:\\osu!\\Songs\\662526 Yousei Teikoku - Hades The rise\\Yousei Teikoku - Hades The rise (Delis) [Hardest].osu", ruleset_id: 2, mods: 66 }
+11:52:46 [INFO] osu! IPC message received.
+11:52:46 [DEBUG] (1) osu_ipc_rust: Request: OsuMessageData { beatmap_file: "D:\\osu!\\Songs\\662526 Yousei Teikoku - Hades The rise\\Yousei Teikoku - Hades The rise (Delis) [Hardest].osu", ruleset_id: 2, mods: 258 }
+11:52:46 [INFO] osu! IPC message received.
+11:52:46 [DEBUG] (1) osu_ipc_rust: Request: OsuMessageData { beatmap_file: "D:\\osu!\\Songs\\662526 Yousei Teikoku - Hades The rise\\Yousei Teikoku - Hades The rise (Delis) [Hardest].osu", ruleset_id: 2, mods: 16 }
+11:52:46 [INFO] osu! IPC message received.
+11:52:46 [DEBUG] (1) osu_ipc_rust: Request: OsuMessageData { beatmap_file: "D:\\osu!\\Songs\\662526 Yousei Teikoku - Hades The rise\\Yousei Teikoku - Hades The rise (Delis) [Hardest].osu", ruleset_id: 2, mods: 80 }
+11:52:46 [INFO] osu! IPC message received.
+11:52:46 [DEBUG] (1) osu_ipc_rust: Request: OsuMessageData { beatmap_file: "D:\\osu!\\Songs\\662526 Yousei Teikoku - Hades The rise\\Yousei Teikoku - Hades The rise (Delis) [Hardest].osu", ruleset_id: 2, mods: 272 }
+11:52:55 [INFO] osu! IPC message received.
+11:52:55 [DEBUG] (1) osu_ipc_rust: Request: OsuMessageData { beatmap_file: "D:\\osu!\\Songs\\1759729 kakichoco - Zan'ei\\Kakichoco - Zan'ei (Lasse) [Heroine's Insane feat. Lasse].osu", ruleset_id: 1, mods: 0 }
+11:52:55 [INFO] osu! IPC message received.
+11:52:55 [DEBUG] (1) osu_ipc_rust: Request: OsuMessageData { beatmap_file: "D:\\osu!\\Songs\\1759729 kakichoco - Zan'ei\\Kakichoco - Zan'ei (Lasse) [Heroine's Insane feat. Lasse].osu", ruleset_id: 1, mods: 64 }
+11:52:55 [INFO] osu! IPC message received.
+11:52:55 [DEBUG] (1) osu_ipc_rust: Request: OsuMessageData { beatmap_file: "D:\\osu!\\Songs\\1759729 kakichoco - Zan'ei\\Kakichoco - Zan'ei (Lasse) [Heroine's Insane feat. Lasse].osu", ruleset_id: 1, mods: 256 }
+11:52:55 [INFO] osu! IPC message received.
+11:52:55 [DEBUG] (1) osu_ipc_rust: Request: OsuMessageData { beatmap_file: "D:\\osu!\\Songs\\1759729 kakichoco - Zan'ei\\Kakichoco - Zan'ei (Lasse) [Heroine's Insane feat. Lasse].osu", ruleset_id: 1, mods: 2 }
+11:52:55 [INFO] osu! IPC message received.
+11:52:55 [DEBUG] (1) osu_ipc_rust: Request: OsuMessageData { beatmap_file: "D:\\osu!\\Songs\\1759729 kakichoco - Zan'ei\\Kakichoco - Zan'ei (Lasse) [Heroine's Insane feat. Lasse].osu", ruleset_id: 1, mods: 66 }
+11:52:55 [INFO] osu! IPC message received.
+11:52:55 [DEBUG] (1) osu_ipc_rust: Request: OsuMessageData { beatmap_file: "D:\\osu!\\Songs\\1759729 kakichoco - Zan'ei\\Kakichoco - Zan'ei (Lasse) [Heroine's Insane feat. Lasse].osu", ruleset_id: 1, mods: 258 }
+11:52:55 [INFO] osu! IPC message received.
+11:52:55 [DEBUG] (1) osu_ipc_rust: Request: OsuMessageData { beatmap_file: "D:\\osu!\\Songs\\1759729 kakichoco - Zan'ei\\Kakichoco - Zan'ei (Lasse) [Heroine's Insane feat. Lasse].osu", ruleset_id: 1, mods: 16 }
+11:52:55 [INFO] osu! IPC message received.
+11:52:55 [DEBUG] (1) osu_ipc_rust: Request: OsuMessageData { beatmap_file: "D:\\osu!\\Songs\\1759729 kakichoco - Zan'ei\\Kakichoco - Zan'ei (Lasse) [Heroine's Insane feat. Lasse].osu", ruleset_id: 1, mods: 80 }
+11:52:55 [INFO] osu! IPC message received.
+11:52:55 [DEBUG] (1) osu_ipc_rust: Request: OsuMessageData { beatmap_file: "D:\\osu!\\Songs\\1759729 kakichoco - Zan'ei\\Kakichoco - Zan'ei (Lasse) [Heroine's Insane feat. Lasse].osu", ruleset_id: 1, mods: 272 }
+11:52:55 [INFO] osu! IPC message received.
+11:52:55 [DEBUG] (1) osu_ipc_rust: Request: OsuMessageData { beatmap_file: "D:\\osu!\\Songs\\1759729 kakichoco - Zan'ei\\Kakichoco - Zan'ei (Lasse) [Zelasse's Expert].osu", ruleset_id: 1, mods: 0 }
+11:52:55 [INFO] osu! IPC message received.
+11:52:55 [DEBUG] (1) osu_ipc_rust: Request: OsuMessageData { beatmap_file: "D:\\osu!\\Songs\\1759729 kakichoco - Zan'ei\\Kakichoco - Zan'ei (Lasse) [Zelasse's Expert].osu", ruleset_id: 1, mods: 64 }
+11:52:55 [INFO] osu! IPC message received.
+11:52:55 [DEBUG] (1) osu_ipc_rust: Request: OsuMessageData { beatmap_file: "D:\\osu!\\Songs\\1759729 kakichoco - Zan'ei\\Kakichoco - Zan'ei (Lasse) [Zelasse's Expert].osu", ruleset_id: 1, mods: 256 }
+11:52:55 [INFO] osu! IPC message received.
+11:52:55 [DEBUG] (1) osu_ipc_rust: Request: OsuMessageData { beatmap_file: "D:\\osu!\\Songs\\1759729 kakichoco - Zan'ei\\Kakichoco - Zan'ei (Lasse) [Zelasse's Expert].osu", ruleset_id: 1, mods: 2 }
+11:52:55 [INFO] osu! IPC message received.
+11:52:55 [DEBUG] (1) osu_ipc_rust: Request: OsuMessageData { beatmap_file: "D:\\osu!\\Songs\\1759729 kakichoco - Zan'ei\\Kakichoco - Zan'ei (Lasse) [Zelasse's Expert].osu", ruleset_id: 1, mods: 66 }
+11:52:55 [INFO] osu! IPC message received.
+11:52:55 [DEBUG] (1) osu_ipc_rust: Request: OsuMessageData { beatmap_file: "D:\\osu!\\Songs\\1759729 kakichoco - Zan'ei\\Kakichoco - Zan'ei (Lasse) [Zelasse's Expert].osu", ruleset_id: 1, mods: 258 }
+11:52:55 [INFO] osu! IPC message received.
+11:52:55 [DEBUG] (1) osu_ipc_rust: Request: OsuMessageData { beatmap_file: "D:\\osu!\\Songs\\1759729 kakichoco - Zan'ei\\Kakichoco - Zan'ei (Lasse) [Zelasse's Expert].osu", ruleset_id: 1, mods: 16 }
+11:52:55 [INFO] osu! IPC message received.
+11:52:55 [DEBUG] (1) osu_ipc_rust: Request: OsuMessageData { beatmap_file: "D:\\osu!\\Songs\\1759729 kakichoco - Zan'ei\\Kakichoco - Zan'ei (Lasse) [Zelasse's Expert].osu", ruleset_id: 1, mods: 80 }
+11:52:55 [INFO] osu! IPC message received.
+11:52:55 [DEBUG] (1) osu_ipc_rust: Request: OsuMessageData { beatmap_file: "D:\\osu!\\Songs\\1759729 kakichoco - Zan'ei\\Kakichoco - Zan'ei (Lasse) [Zelasse's Expert].osu", ruleset_id: 1, mods: 272 }
+11:52:55 [INFO] osu! IPC message received.
+11:52:55 [DEBUG] (1) osu_ipc_rust: Request: OsuMessageData { beatmap_file: "D:\\osu!\\Songs\\1759729 kakichoco - Zan'ei\\Kakichoco - Zan'ei (Lasse) [Illusion].osu", ruleset_id: 1, mods: 0 }
+11:52:55 [INFO] osu! IPC message received.
+11:52:55 [DEBUG] (1) osu_ipc_rust: Request: OsuMessageData { beatmap_file: "D:\\osu!\\Songs\\1759729 kakichoco - Zan'ei\\Kakichoco - Zan'ei (Lasse) [Illusion].osu", ruleset_id: 1, mods: 64 }
+11:52:55 [INFO] osu! IPC message received.
+11:52:55 [DEBUG] (1) osu_ipc_rust: Request: OsuMessageData { beatmap_file: "D:\\osu!\\Songs\\1759729 kakichoco - Zan'ei\\Kakichoco - Zan'ei (Lasse) [Illusion].osu", ruleset_id: 1, mods: 256 }
+11:52:55 [INFO] osu! IPC message received.
+11:52:55 [DEBUG] (1) osu_ipc_rust: Request: OsuMessageData { beatmap_file: "D:\\osu!\\Songs\\1759729 kakichoco - Zan'ei\\Kakichoco - Zan'ei (Lasse) [Illusion].osu", ruleset_id: 1, mods: 2 }
+11:52:55 [INFO] osu! IPC message received.
+11:52:55 [DEBUG] (1) osu_ipc_rust: Request: OsuMessageData { beatmap_file: "D:\\osu!\\Songs\\1759729 kakichoco - Zan'ei\\Kakichoco - Zan'ei (Lasse) [Illusion].osu", ruleset_id: 1, mods: 66 }
+11:52:55 [INFO] osu! IPC message received.
+11:52:55 [DEBUG] (1) osu_ipc_rust: Request: OsuMessageData { beatmap_file: "D:\\osu!\\Songs\\1759729 kakichoco - Zan'ei\\Kakichoco - Zan'ei (Lasse) [Illusion].osu", ruleset_id: 1, mods: 258 }
+11:52:55 [INFO] osu! IPC message received.
+11:52:55 [DEBUG] (1) osu_ipc_rust: Request: OsuMessageData { beatmap_file: "D:\\osu!\\Songs\\1759729 kakichoco - Zan'ei\\Kakichoco - Zan'ei (Lasse) [Illusion].osu", ruleset_id: 1, mods: 16 }
+11:52:55 [INFO] osu! IPC message received.
+11:52:55 [DEBUG] (1) osu_ipc_rust: Request: OsuMessageData { beatmap_file: "D:\\osu!\\Songs\\1759729 kakichoco - Zan'ei\\Kakichoco - Zan'ei (Lasse) [Illusion].osu", ruleset_id: 1, mods: 80 }
+11:52:55 [INFO] osu! IPC message received.
+11:52:55 [DEBUG] (1) osu_ipc_rust: Request: OsuMessageData { beatmap_file: "D:\\osu!\\Songs\\1759729 kakichoco - Zan'ei\\Kakichoco - Zan'ei (Lasse) [Illusion].osu", ruleset_id: 1, mods: 272 }
+11:52:55 [INFO] osu! IPC message received.
+11:52:55 [DEBUG] (1) osu_ipc_rust: Request: OsuMessageData { beatmap_file: "D:\\osu!\\Songs\\157763 Drop - Ganandora no Majutsushi\\Drop - Ganandora no Majutsushi ([CSGA]Ar3sgice) [DJ].osu", ruleset_id: 1, mods: 0 }
+11:52:55 [INFO] osu! IPC message received.
+11:52:55 [DEBUG] (1) osu_ipc_rust: Request: OsuMessageData { beatmap_file: "D:\\osu!\\Songs\\157763 Drop - Ganandora no Majutsushi\\Drop - Ganandora no Majutsushi ([CSGA]Ar3sgice) [DJ].osu", ruleset_id: 1, mods: 64 }
+11:52:56 [INFO] osu! IPC message received.
+11:52:56 [DEBUG] (1) osu_ipc_rust: Request: OsuMessageData { beatmap_file: "D:\\osu!\\Songs\\157763 Drop - Ganandora no Majutsushi\\Drop - Ganandora no Majutsushi ([CSGA]Ar3sgice) [DJ].osu", ruleset_id: 1, mods: 256 }
+11:52:56 [INFO] osu! IPC message received.
+11:52:56 [DEBUG] (1) osu_ipc_rust: Request: OsuMessageData { beatmap_file: "D:\\osu!\\Songs\\157763 Drop - Ganandora no Majutsushi\\Drop - Ganandora no Majutsushi ([CSGA]Ar3sgice) [DJ].osu", ruleset_id: 1, mods: 2 }
+11:52:56 [INFO] osu! IPC message received.
+11:52:56 [DEBUG] (1) osu_ipc_rust: Request: OsuMessageData { beatmap_file: "D:\\osu!\\Songs\\157763 Drop - Ganandora no Majutsushi\\Drop - Ganandora no Majutsushi ([CSGA]Ar3sgice) [DJ].osu", ruleset_id: 1, mods: 66 }
+11:52:56 [INFO] osu! IPC message received.
+11:52:56 [DEBUG] (1) osu_ipc_rust: Request: OsuMessageData { beatmap_file: "D:\\osu!\\Songs\\157763 Drop - Ganandora no Majutsushi\\Drop - Ganandora no Majutsushi ([CSGA]Ar3sgice) [DJ].osu", ruleset_id: 1, mods: 258 }
+11:52:56 [INFO] osu! IPC message received.
+11:52:56 [DEBUG] (1) osu_ipc_rust: Request: OsuMessageData { beatmap_file: "D:\\osu!\\Songs\\157763 Drop - Ganandora no Majutsushi\\Drop - Ganandora no Majutsushi ([CSGA]Ar3sgice) [DJ].osu", ruleset_id: 1, mods: 16 }
+11:52:56 [INFO] osu! IPC message received.
+11:52:56 [DEBUG] (1) osu_ipc_rust: Request: OsuMessageData { beatmap_file: "D:\\osu!\\Songs\\157763 Drop - Ganandora no Majutsushi\\Drop - Ganandora no Majutsushi ([CSGA]Ar3sgice) [DJ].osu", ruleset_id: 1, mods: 80 }
+11:52:56 [INFO] osu! IPC message received.
+11:52:56 [DEBUG] (1) osu_ipc_rust: Request: OsuMessageData { beatmap_file: "D:\\osu!\\Songs\\157763 Drop - Ganandora no Majutsushi\\Drop - Ganandora no Majutsushi ([CSGA]Ar3sgice) [DJ].osu", ruleset_id: 1, mods: 272 }
+11:52:56 [INFO] osu! IPC message received.
+11:52:56 [DEBUG] (1) osu_ipc_rust: Request: OsuMessageData { beatmap_file: "D:\\osu!\\Songs\\157763 Drop - Ganandora no Majutsushi\\Drop - Ganandora no Majutsushi ([CSGA]Ar3sgice) [Tsukai].osu", ruleset_id: 1, mods: 0 }
+11:52:56 [INFO] osu! IPC message received.
+11:52:56 [DEBUG] (1) osu_ipc_rust: Request: OsuMessageData { beatmap_file: "D:\\osu!\\Songs\\157763 Drop - Ganandora no Majutsushi\\Drop - Ganandora no Majutsushi ([CSGA]Ar3sgice) [Tsukai].osu", ruleset_id: 1, mods: 64 }
+11:52:56 [INFO] osu! IPC message received.
+11:52:56 [DEBUG] (1) osu_ipc_rust: Request: OsuMessageData { beatmap_file: "D:\\osu!\\Songs\\157763 Drop - Ganandora no Majutsushi\\Drop - Ganandora no Majutsushi ([CSGA]Ar3sgice) [Tsukai].osu", ruleset_id: 1, mods: 256 }
+11:52:56 [INFO] osu! IPC message received.
+11:52:56 [DEBUG] (1) osu_ipc_rust: Request: OsuMessageData { beatmap_file: "D:\\osu!\\Songs\\157763 Drop - Ganandora no Majutsushi\\Drop - Ganandora no Majutsushi ([CSGA]Ar3sgice) [Tsukai].osu", ruleset_id: 1, mods: 2 }
+11:52:56 [INFO] osu! IPC message received.
+11:52:56 [DEBUG] (1) osu_ipc_rust: Request: OsuMessageData { beatmap_file: "D:\\osu!\\Songs\\157763 Drop - Ganandora no Majutsushi\\Drop - Ganandora no Majutsushi ([CSGA]Ar3sgice) [Tsukai].osu", ruleset_id: 1, mods: 66 }
+11:52:56 [INFO] osu! IPC message received.
+11:52:56 [DEBUG] (1) osu_ipc_rust: Request: OsuMessageData { beatmap_file: "D:\\osu!\\Songs\\157763 Drop - Ganandora no Majutsushi\\Drop - Ganandora no Majutsushi ([CSGA]Ar3sgice) [Tsukai].osu", ruleset_id: 1, mods: 258 }
+11:52:56 [INFO] osu! IPC message received.
+11:52:56 [DEBUG] (1) osu_ipc_rust: Request: OsuMessageData { beatmap_file: "D:\\osu!\\Songs\\157763 Drop - Ganandora no Majutsushi\\Drop - Ganandora no Majutsushi ([CSGA]Ar3sgice) [Tsukai].osu", ruleset_id: 1, mods: 16 }
+11:52:56 [INFO] osu! IPC message received.
+11:52:56 [DEBUG] (1) osu_ipc_rust: Request: OsuMessageData { beatmap_file: "D:\\osu!\\Songs\\157763 Drop - Ganandora no Majutsushi\\Drop - Ganandora no Majutsushi ([CSGA]Ar3sgice) [Tsukai].osu", ruleset_id: 1, mods: 80 }
+11:52:56 [INFO] osu! IPC message received.
+11:52:56 [DEBUG] (1) osu_ipc_rust: Request: OsuMessageData { beatmap_file: "D:\\osu!\\Songs\\157763 Drop - Ganandora no Majutsushi\\Drop - Ganandora no Majutsushi ([CSGA]Ar3sgice) [Tsukai].osu", ruleset_id: 1, mods: 272 }
+11:52:56 [INFO] osu! IPC message received.
+11:52:56 [DEBUG] (1) osu_ipc_rust: Request: OsuMessageData { beatmap_file: "D:\\osu!\\Songs\\925793 Drop - Granat\\Drop - Granat (Acyl) [Extra].osu", ruleset_id: 1, mods: 0 }
+11:52:56 [INFO] osu! IPC message received.
+11:52:56 [DEBUG] (1) osu_ipc_rust: Request: OsuMessageData { beatmap_file: "D:\\osu!\\Songs\\925793 Drop - Granat\\Drop - Granat (Acyl) [Extra].osu", ruleset_id: 1, mods: 64 }
+11:52:56 [INFO] osu! IPC message received.
+11:52:56 [DEBUG] (1) osu_ipc_rust: Request: OsuMessageData { beatmap_file: "D:\\osu!\\Songs\\925793 Drop - Granat\\Drop - Granat (Acyl) [Extra].osu", ruleset_id: 1, mods: 256 }
+11:52:56 [INFO] osu! IPC message received.
+11:52:56 [DEBUG] (1) osu_ipc_rust: Request: OsuMessageData { beatmap_file: "D:\\osu!\\Songs\\925793 Drop - Granat\\Drop - Granat (Acyl) [Extra].osu", ruleset_id: 1, mods: 2 }
+11:52:57 [INFO] osu! IPC message received.
+11:52:57 [DEBUG] (1) osu_ipc_rust: Request: OsuMessageData { beatmap_file: "D:\\osu!\\Songs\\925793 Drop - Granat\\Drop - Granat (Acyl) [Extra].osu", ruleset_id: 1, mods: 66 }
+11:52:57 [INFO] osu! IPC message received.
+11:52:57 [DEBUG] (1) osu_ipc_rust: Request: OsuMessageData { beatmap_file: "D:\\osu!\\Songs\\925793 Drop - Granat\\Drop - Granat (Acyl) [Extra].osu", ruleset_id: 1, mods: 258 }
+11:52:57 [INFO] osu! IPC message received.
+11:52:57 [DEBUG] (1) osu_ipc_rust: Request: OsuMessageData { beatmap_file: "D:\\osu!\\Songs\\925793 Drop - Granat\\Drop - Granat (Acyl) [Extra].osu", ruleset_id: 1, mods: 16 }
+11:52:57 [INFO] osu! IPC message received.
+11:52:57 [DEBUG] (1) osu_ipc_rust: Request: OsuMessageData { beatmap_file: "D:\\osu!\\Songs\\925793 Drop - Granat\\Drop - Granat (Acyl) [Extra].osu", ruleset_id: 1, mods: 80 }
+11:52:57 [INFO] osu! IPC message received.
+11:52:57 [DEBUG] (1) osu_ipc_rust: Request: OsuMessageData { beatmap_file: "D:\\osu!\\Songs\\925793 Drop - Granat\\Drop - Granat (Acyl) [Extra].osu", ruleset_id: 1, mods: 272 }
+11:52:57 [INFO] osu! IPC message received.
+11:52:57 [DEBUG] (1) osu_ipc_rust: Request: OsuMessageData { beatmap_file: "D:\\osu!\\Songs\\925793 Drop - Granat\\Drop - Granat (Acyl) [Hard].osu", ruleset_id: 1, mods: 0 }
+11:52:57 [INFO] osu! IPC message received.
+11:52:57 [DEBUG] (1) osu_ipc_rust: Request: OsuMessageData { beatmap_file: "D:\\osu!\\Songs\\925793 Drop - Granat\\Drop - Granat (Acyl) [Hard].osu", ruleset_id: 1, mods: 64 }
+11:52:57 [INFO] osu! IPC message received.
+11:52:57 [DEBUG] (1) osu_ipc_rust: Request: OsuMessageData { beatmap_file: "D:\\osu!\\Songs\\925793 Drop - Granat\\Drop - Granat (Acyl) [Hard].osu", ruleset_id: 1, mods: 256 }
+11:52:57 [INFO] osu! IPC message received.
+11:52:57 [DEBUG] (1) osu_ipc_rust: Request: OsuMessageData { beatmap_file: "D:\\osu!\\Songs\\925793 Drop - Granat\\Drop - Granat (Acyl) [Hard].osu", ruleset_id: 1, mods: 2 }
+11:52:57 [INFO] osu! IPC message received.
+11:52:57 [DEBUG] (1) osu_ipc_rust: Request: OsuMessageData { beatmap_file: "D:\\osu!\\Songs\\925793 Drop - Granat\\Drop - Granat (Acyl) [Hard].osu", ruleset_id: 1, mods: 66 }
+11:52:57 [INFO] osu! IPC message received.
+11:52:57 [DEBUG] (1) osu_ipc_rust: Request: OsuMessageData { beatmap_file: "D:\\osu!\\Songs\\925793 Drop - Granat\\Drop - Granat (Acyl) [Hard].osu", ruleset_id: 1, mods: 258 }
+11:52:57 [INFO] osu! IPC message received.
+11:52:57 [DEBUG] (1) osu_ipc_rust: Request: OsuMessageData { beatmap_file: "D:\\osu!\\Songs\\925793 Drop - Granat\\Drop - Granat (Acyl) [Hard].osu", ruleset_id: 1, mods: 16 }
+11:52:57 [INFO] osu! IPC message received.
+11:52:57 [DEBUG] (1) osu_ipc_rust: Request: OsuMessageData { beatmap_file: "D:\\osu!\\Songs\\925793 Drop - Granat\\Drop - Granat (Acyl) [Hard].osu", ruleset_id: 1, mods: 80 }
+11:52:57 [INFO] osu! IPC message received.
+11:52:57 [DEBUG] (1) osu_ipc_rust: Request: OsuMessageData { beatmap_file: "D:\\osu!\\Songs\\925793 Drop - Granat\\Drop - Granat (Acyl) [Hard].osu", ruleset_id: 1, mods: 272 }
+11:52:57 [INFO] osu! IPC message received.
+11:52:57 [DEBUG] (1) osu_ipc_rust: Request: OsuMessageData { beatmap_file: "D:\\osu!\\Songs\\925793 Drop - Granat\\Drop - Granat (Acyl) [Insane].osu", ruleset_id: 1, mods: 0 }
+11:52:57 [INFO] osu! IPC message received.
+11:52:57 [DEBUG] (1) osu_ipc_rust: Request: OsuMessageData { beatmap_file: "D:\\osu!\\Songs\\925793 Drop - Granat\\Drop - Granat (Acyl) [Insane].osu", ruleset_id: 1, mods: 64 }
+11:52:57 [INFO] osu! IPC message received.
+11:52:57 [DEBUG] (1) osu_ipc_rust: Request: OsuMessageData { beatmap_file: "D:\\osu!\\Songs\\925793 Drop - Granat\\Drop - Granat (Acyl) [Insane].osu", ruleset_id: 1, mods: 256 }
+11:52:57 [INFO] osu! IPC message received.
+11:52:57 [DEBUG] (1) osu_ipc_rust: Request: OsuMessageData { beatmap_file: "D:\\osu!\\Songs\\925793 Drop - Granat\\Drop - Granat (Acyl) [Insane].osu", ruleset_id: 1, mods: 2 }
+11:52:57 [INFO] osu! IPC message received.
+11:52:57 [DEBUG] (1) osu_ipc_rust: Request: OsuMessageData { beatmap_file: "D:\\osu!\\Songs\\925793 Drop - Granat\\Drop - Granat (Acyl) [Insane].osu", ruleset_id: 1, mods: 66 }
+11:52:57 [INFO] osu! IPC message received.
+11:52:57 [DEBUG] (1) osu_ipc_rust: Request: OsuMessageData { beatmap_file: "D:\\osu!\\Songs\\925793 Drop - Granat\\Drop - Granat (Acyl) [Insane].osu", ruleset_id: 1, mods: 258 }
+11:52:57 [INFO] osu! IPC message received.
+11:52:57 [DEBUG] (1) osu_ipc_rust: Request: OsuMessageData { beatmap_file: "D:\\osu!\\Songs\\925793 Drop - Granat\\Drop - Granat (Acyl) [Insane].osu", ruleset_id: 1, mods: 16 }
+11:52:57 [INFO] osu! IPC message received.
+11:52:57 [DEBUG] (1) osu_ipc_rust: Request: OsuMessageData { beatmap_file: "D:\\osu!\\Songs\\925793 Drop - Granat\\Drop - Granat (Acyl) [Insane].osu", ruleset_id: 1, mods: 80 }
+11:52:57 [INFO] osu! IPC message received.
+11:52:57 [DEBUG] (1) osu_ipc_rust: Request: OsuMessageData { beatmap_file: "D:\\osu!\\Songs\\925793 Drop - Granat\\Drop - Granat (Acyl) [Insane].osu", ruleset_id: 1, mods: 272 }
+11:52:57 [INFO] osu! IPC message received.
+11:52:57 [DEBUG] (1) osu_ipc_rust: Request: OsuMessageData { beatmap_file: "D:\\osu!\\Songs\\925793 Drop - Granat\\Drop - Granat (Acyl) [Normal].osu", ruleset_id: 1, mods: 0 }
+11:52:57 [INFO] osu! IPC message received.
+11:52:57 [DEBUG] (1) osu_ipc_rust: Request: OsuMessageData { beatmap_file: "D:\\osu!\\Songs\\925793 Drop - Granat\\Drop - Granat (Acyl) [Normal].osu", ruleset_id: 1, mods: 64 }
+11:52:57 [INFO] osu! IPC message received.
+11:52:57 [DEBUG] (1) osu_ipc_rust: Request: OsuMessageData { beatmap_file: "D:\\osu!\\Songs\\925793 Drop - Granat\\Drop - Granat (Acyl) [Normal].osu", ruleset_id: 1, mods: 256 }
+11:52:57 [INFO] osu! IPC message received.
+11:52:57 [DEBUG] (1) osu_ipc_rust: Request: OsuMessageData { beatmap_file: "D:\\osu!\\Songs\\925793 Drop - Granat\\Drop - Granat (Acyl) [Normal].osu", ruleset_id: 1, mods: 2 }
+11:52:57 [INFO] osu! IPC message received.
+11:52:57 [DEBUG] (1) osu_ipc_rust: Request: OsuMessageData { beatmap_file: "D:\\osu!\\Songs\\925793 Drop - Granat\\Drop - Granat (Acyl) [Normal].osu", ruleset_id: 1, mods: 66 }
+11:52:57 [INFO] osu! IPC message received.
+11:52:57 [DEBUG] (1) osu_ipc_rust: Request: OsuMessageData { beatmap_file: "D:\\osu!\\Songs\\925793 Drop - Granat\\Drop - Granat (Acyl) [Normal].osu", ruleset_id: 1, mods: 258 }
+11:52:57 [INFO] osu! IPC message received.
+11:52:57 [DEBUG] (1) osu_ipc_rust: Request: OsuMessageData { beatmap_file: "D:\\osu!\\Songs\\925793 Drop - Granat\\Drop - Granat (Acyl) [Normal].osu", ruleset_id: 1, mods: 16 }
+11:52:57 [INFO] osu! IPC message received.
+11:52:57 [DEBUG] (1) osu_ipc_rust: Request: OsuMessageData { beatmap_file: "D:\\osu!\\Songs\\925793 Drop - Granat\\Drop - Granat (Acyl) [Normal].osu", ruleset_id: 1, mods: 80 }
+11:52:57 [INFO] osu! IPC message received.
+11:52:57 [DEBUG] (1) osu_ipc_rust: Request: OsuMessageData { beatmap_file: "D:\\osu!\\Songs\\925793 Drop - Granat\\Drop - Granat (Acyl) [Normal].osu", ruleset_id: 1, mods: 272 }
+11:52:57 [INFO] osu! IPC message received.
+11:52:57 [DEBUG] (1) osu_ipc_rust: Request: OsuMessageData { beatmap_file: "D:\\osu!\\Songs\\925793 Drop - Granat\\Drop - Granat (Acyl) [SquareTude's Light Insane].osu", ruleset_id: 1, mods: 0 }
+11:52:57 [INFO] osu! IPC message received.
+11:52:57 [DEBUG] (1) osu_ipc_rust: Request: OsuMessageData { beatmap_file: "D:\\osu!\\Songs\\925793 Drop - Granat\\Drop - Granat (Acyl) [SquareTude's Light Insane].osu", ruleset_id: 1, mods: 64 }
+11:52:57 [INFO] osu! IPC message received.
+11:52:57 [DEBUG] (1) osu_ipc_rust: Request: OsuMessageData { beatmap_file: "D:\\osu!\\Songs\\925793 Drop - Granat\\Drop - Granat (Acyl) [SquareTude's Light Insane].osu", ruleset_id: 1, mods: 256 }
+11:52:57 [INFO] osu! IPC message received.
+11:52:57 [DEBUG] (1) osu_ipc_rust: Request: OsuMessageData { beatmap_file: "D:\\osu!\\Songs\\925793 Drop - Granat\\Drop - Granat (Acyl) [SquareTude's Light Insane].osu", ruleset_id: 1, mods: 2 }
+11:52:57 [INFO] osu! IPC message received.
+11:52:57 [DEBUG] (1) osu_ipc_rust: Request: OsuMessageData { beatmap_file: "D:\\osu!\\Songs\\925793 Drop - Granat\\Drop - Granat (Acyl) [SquareTude's Light Insane].osu", ruleset_id: 1, mods: 66 }
+11:52:57 [INFO] osu! IPC message received.
+11:52:57 [DEBUG] (1) osu_ipc_rust: Request: OsuMessageData { beatmap_file: "D:\\osu!\\Songs\\925793 Drop - Granat\\Drop - Granat (Acyl) [SquareTude's Light Insane].osu", ruleset_id: 1, mods: 258 }
+11:52:57 [INFO] osu! IPC message received.
+11:52:57 [DEBUG] (1) osu_ipc_rust: Request: OsuMessageData { beatmap_file: "D:\\osu!\\Songs\\925793 Drop - Granat\\Drop - Granat (Acyl) [SquareTude's Light Insane].osu", ruleset_id: 1, mods: 16 }
+11:52:57 [INFO] osu! IPC message received.
+11:52:57 [DEBUG] (1) osu_ipc_rust: Request: OsuMessageData { beatmap_file: "D:\\osu!\\Songs\\925793 Drop - Granat\\Drop - Granat (Acyl) [SquareTude's Light Insane].osu", ruleset_id: 1, mods: 80 }
+11:52:57 [INFO] osu! IPC message received.
+11:52:57 [DEBUG] (1) osu_ipc_rust: Request: OsuMessageData { beatmap_file: "D:\\osu!\\Songs\\925793 Drop - Granat\\Drop - Granat (Acyl) [SquareTude's Light Insane].osu", ruleset_id: 1, mods: 272 }
+11:52:57 [INFO] osu! IPC message received.
+11:52:57 [DEBUG] (1) osu_ipc_rust: Request: OsuMessageData { beatmap_file: "D:\\osu!\\Songs\\925793 Drop - Granat\\Drop - Granat (Acyl) [Taeyang's Ultimate Space].osu", ruleset_id: 1, mods: 0 }
+11:52:57 [ERROR] Failed to process osu!'s IPC message: Failed to calculate star rating
+11:52:57 [INFO] osu! IPC message received.
+11:52:57 [ERROR] Failed to process osu!'s IPC message: Header does not match expected size
+11:52:57 [INFO] osu! IPC message received.
+11:52:57 [DEBUG] (1) osu_ipc_rust: Request: OsuMessageData { beatmap_file: "D:\\osu!\\Songs\\925793 Drop - Granat\\Drop - Granat (Acyl) [Taeyang's Ultimate Space].osu", ruleset_id: 1, mods: 64 }
+11:52:57 [ERROR] Failed to process osu!'s IPC message: Failed to calculate star rating
+11:53:27 [INFO] osu! IPC message received.
+11:53:27 [ERROR] Failed to process osu!'s IPC message: Header does not match expected size
+11:53:27 [INFO] osu! IPC message received.
+11:53:27 [DEBUG] (1) osu_ipc_rust: Request: OsuMessageData { beatmap_file: "D:\\osu!\\Songs\\1759729 kakichoco - Zan'ei\\Kakichoco - Zan'ei (Lasse) [Illusion].osu", ruleset_id: 0, mods: 64 }
+11:53:27 [INFO] osu! IPC message received.
+11:53:27 [DEBUG] (1) osu_ipc_rust: Request: OsuMessageData { beatmap_file: "D:\\osu!\\Songs\\1759729 kakichoco - Zan'ei\\Kakichoco - Zan'ei (Lasse) [Illusion].osu", ruleset_id: 0, mods: 256 }
+11:53:27 [INFO] osu! IPC message received.
+11:53:27 [DEBUG] (1) osu_ipc_rust: Request: OsuMessageData { beatmap_file: "D:\\osu!\\Songs\\1759729 kakichoco - Zan'ei\\Kakichoco - Zan'ei (Lasse) [Illusion].osu", ruleset_id: 0, mods: 2 }
+11:53:27 [INFO] osu! IPC message received.
+11:53:27 [DEBUG] (1) osu_ipc_rust: Request: OsuMessageData { beatmap_file: "D:\\osu!\\Songs\\1759729 kakichoco - Zan'ei\\Kakichoco - Zan'ei (Lasse) [Illusion].osu", ruleset_id: 0, mods: 66 }
+11:53:27 [INFO] osu! IPC message received.
+11:53:27 [DEBUG] (1) osu_ipc_rust: Request: OsuMessageData { beatmap_file: "D:\\osu!\\Songs\\1759729 kakichoco - Zan'ei\\Kakichoco - Zan'ei (Lasse) [Illusion].osu", ruleset_id: 0, mods: 258 }
+11:53:27 [INFO] osu! IPC message received.
+11:53:27 [DEBUG] (1) osu_ipc_rust: Request: OsuMessageData { beatmap_file: "D:\\osu!\\Songs\\1759729 kakichoco - Zan'ei\\Kakichoco - Zan'ei (Lasse) [Illusion].osu", ruleset_id: 0, mods: 16 }
+11:53:27 [INFO] osu! IPC message received.
+11:53:27 [DEBUG] (1) osu_ipc_rust: Request: OsuMessageData { beatmap_file: "D:\\osu!\\Songs\\1759729 kakichoco - Zan'ei\\Kakichoco - Zan'ei (Lasse) [Illusion].osu", ruleset_id: 0, mods: 80 }
+11:53:27 [INFO] osu! IPC message received.
+11:53:27 [DEBUG] (1) osu_ipc_rust: Request: OsuMessageData { beatmap_file: "D:\\osu!\\Songs\\1759729 kakichoco - Zan'ei\\Kakichoco - Zan'ei (Lasse) [Illusion].osu", ruleset_id: 0, mods: 272 }
+11:53:27 [INFO] osu! IPC message received.
+11:53:27 [DEBUG] (1) osu_ipc_rust: Request: OsuMessageData { beatmap_file: "D:\\osu!\\Songs\\1759729 kakichoco - Zan'ei\\Kakichoco - Zan'ei (Lasse) [Illusion].osu", ruleset_id: 0, mods: 0 }
+11:53:27 [INFO] osu! IPC message received.
+11:53:27 [DEBUG] (1) osu_ipc_rust: Request: OsuMessageData { beatmap_file: "D:\\osu!\\Songs\\1759729 kakichoco - Zan'ei\\Kakichoco - Zan'ei (Lasse) [Illusion].osu", ruleset_id: 0, mods: 64 }
+11:53:27 [INFO] osu! IPC message received.
+11:53:27 [DEBUG] (1) osu_ipc_rust: Request: OsuMessageData { beatmap_file: "D:\\osu!\\Songs\\1759729 kakichoco - Zan'ei\\Kakichoco - Zan'ei (Lasse) [Illusion].osu", ruleset_id: 0, mods: 256 }
+11:53:27 [INFO] osu! IPC message received.
+11:53:27 [DEBUG] (1) osu_ipc_rust: Request: OsuMessageData { beatmap_file: "D:\\osu!\\Songs\\1759729 kakichoco - Zan'ei\\Kakichoco - Zan'ei (Lasse) [Illusion].osu", ruleset_id: 0, mods: 2 }
+11:53:27 [INFO] osu! IPC message received.
+11:53:27 [DEBUG] (1) osu_ipc_rust: Request: OsuMessageData { beatmap_file: "D:\\osu!\\Songs\\1759729 kakichoco - Zan'ei\\Kakichoco - Zan'ei (Lasse) [Illusion].osu", ruleset_id: 0, mods: 66 }
+11:53:27 [INFO] osu! IPC message received.
+11:53:27 [DEBUG] (1) osu_ipc_rust: Request: OsuMessageData { beatmap_file: "D:\\osu!\\Songs\\1759729 kakichoco - Zan'ei\\Kakichoco - Zan'ei (Lasse) [Illusion].osu", ruleset_id: 0, mods: 258 }
+11:53:28 [INFO] osu! IPC message received.
+11:53:28 [DEBUG] (1) osu_ipc_rust: Request: OsuMessageData { beatmap_file: "D:\\osu!\\Songs\\1759729 kakichoco - Zan'ei\\Kakichoco - Zan'ei (Lasse) [Illusion].osu", ruleset_id: 0, mods: 16 }
+11:53:28 [INFO] osu! IPC message received.
+11:53:28 [DEBUG] (1) osu_ipc_rust: Request: OsuMessageData { beatmap_file: "D:\\osu!\\Songs\\1759729 kakichoco - Zan'ei\\Kakichoco - Zan'ei (Lasse) [Illusion].osu", ruleset_id: 0, mods: 80 }
+11:53:28 [INFO] osu! IPC message received.
+11:53:28 [DEBUG] (1) osu_ipc_rust: Request: OsuMessageData { beatmap_file: "D:\\osu!\\Songs\\1759729 kakichoco - Zan'ei\\Kakichoco - Zan'ei (Lasse) [Illusion].osu", ruleset_id: 0, mods: 272 }
