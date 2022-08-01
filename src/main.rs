@@ -30,16 +30,28 @@ fn main() {
 
 fn handle_connection(mut stream: &TcpStream) -> Result<OsuIpcMessage<OsuResponse>> {
     // Read the header and get the size of the message
+
+    // Length of header is based on the size of C#'s int
+    // https://github.com/ppy/osu-framework/blob/master/osu.Framework/Platform/TcpIpcProvider.cs#L183-L185
     let mut header = [0; 4];
-    stream
+    let consumed = stream
         .read(&mut header)
         .context("Failed to read header from request")?;
+
+    if consumed != 4 {
+        return Err(anyhow!("Header does not match expected size"));
+    }
 
     let len = match working() {
         Endian::Little => i32::from_le_bytes(header),
         Endian::Big => i32::from_be_bytes(header),
         _ => panic!("Unexpected CPU endian"),
     };
+
+    // Ignore if the message is empty
+    if len == 0 {
+        return Err(anyhow!("Message length is 0"));
+    }
 
     // Initialize buffer in the same size
     let mut buffer = vec![0; len.try_into().unwrap()];
@@ -49,16 +61,10 @@ fn handle_connection(mut stream: &TcpStream) -> Result<OsuIpcMessage<OsuResponse
 
     // Then convert it to JSON string
     let json_str = String::from_utf8_lossy(&buffer.as_slice());
-    let json_str = json_str.trim_matches(char::from(0));
-
-    // If either of header or string is empty, just don't do anything
-    if i32::from_le_bytes(header) == 0 || json_str.is_empty() {
-        return Err(anyhow!("Malformed request from osu!"));
-    }
 
     // Attempt to decode the message
     let deserialized =
-        deserialize_message(json_str).context("Failed to deserialize osu! IPC message.")?;
+        deserialize_message(&json_str).context("Failed to deserialize osu! IPC message.")?;
     println!("Request: {:?}", deserialized);
 
     // Calculate the SR
