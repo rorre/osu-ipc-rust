@@ -44,6 +44,9 @@ pub fn send_message(message: OsuIpcMessage<OsuResponse>, mut stream: TcpStream) 
     // Rebuild in the same format as what osu! understands
     // First 4 bytes: header, size of data
     // Last n bytes: the data as JSON
+    //
+    // Reference:
+    // https://github.com/ppy/osu-framework/blob/master/osu.Framework/Platform/TcpIpcProvider.cs#L170-L179
     let json_str = serde_json::to_string(&message).unwrap();
     let arr = json_str.as_bytes();
     let len: i32 = arr.len().try_into().unwrap();
