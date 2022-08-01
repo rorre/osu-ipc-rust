@@ -1,5 +1,6 @@
 pub mod ipc;
 pub mod osu;
+pub mod update;
 
 use anyhow::{anyhow, Context, Result};
 use cpu_endian::*;
@@ -13,6 +14,7 @@ use std::net::TcpStream;
 
 use crate::ipc::{deserialize_message, send_message, OsuIpcMessage, OsuResponse, ValueIpc};
 use crate::osu::calculate_sr;
+use crate::update::update_check;
 
 fn main() {
     CombinedLogger::init(vec![
@@ -24,6 +26,8 @@ fn main() {
         ),
     ])
     .expect("Cannot set up logger.");
+
+    update_check().expect("Failed to check for updates.");
 
     let listener =
         TcpListener::bind("127.0.0.1:45357").expect("Failed to boot up server on osu!'s IPC port.");
