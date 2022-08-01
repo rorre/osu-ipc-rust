@@ -69,7 +69,7 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           upload_url: ${{ steps.create_release.outputs.upload_url }}
-          asset_path: target/${{ matrix.target }}/${{ env.BIN }}.exe
+          asset_path: target/${{ matrix.target }}/release/${{ env.BIN }}.exe
           asset_name: ${{ env.BIN }}-${{ matrix.target }}.exe
           asset_content_type: application/zip
 
