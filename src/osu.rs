@@ -1,4 +1,4 @@
-use anyhow::{Context, Result};
+use anyhow::{anyhow, Context, Result};
 
 use rosu_pp::GameMode;
 use rosu_pp::{AnyStars, Beatmap};
@@ -14,7 +14,8 @@ pub fn calculate_sr(message: OsuMessageData) -> Result<f64> {
         0 => GameMode::Osu,
         1 => GameMode::Taiko,
         2 => GameMode::Catch,
-        _ => GameMode::Mania,
+        3 => GameMode::Mania,
+        _ => return Err(anyhow!("Invalid ruleset id")),
     };
 
     let sr = AnyStars::new(&map)
