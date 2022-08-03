@@ -1,6 +1,7 @@
 use anyhow::{Context, Result};
 use cpu_endian::*;
 
+use log::debug;
 use serde::{Deserialize, Serialize};
 
 use std::{io::Write, net::TcpStream};
@@ -47,6 +48,7 @@ pub fn send_message(message: OsuIpcMessage<OsuResponse>, mut stream: TcpStream) 
     //
     // Reference:
     // https://github.com/ppy/osu-framework/blob/master/osu.Framework/Platform/TcpIpcProvider.cs#L170-L179
+    debug!("Response: {:?}", message);
     let json_str = serde_json::to_string(&message).unwrap();
     let arr = json_str.as_bytes();
     let len: i32 = arr.len().try_into().unwrap();
